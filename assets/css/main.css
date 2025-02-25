@@ -1753,3 +1753,16 @@ section,
   transition: 0.9s;
   background-color: var(--accent-color);
 }
+
+.progress-bar-wrap {
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 10px;
+  background: #ff0400; /* Change to your preferred color */
+  width: 0%; /* Initially set to 0 */
+  transition: width 1.5s ease-in-out;
+}
